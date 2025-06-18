@@ -1,6 +1,6 @@
 # Remote Named Pipe Impersonation PoC
 
-This project demonstrates a proof-of-concept (PoC) for user-to-user impersonation in Active Directory (AD) environments by abusing remote named pipes. It specifically addresses the challenge of impersonating standard users, which existing tools often fail to do due to privilege limitations. By leveraging a rogue virtual machine (VM) with SYSTEM privileges, this PoC enables impersonation of both administrators and standard users, overcoming common errors like `0xc0000142`.
+This project demonstrates a proof-of-concept (PoC) for user-to-user impersonation in Active Directory (AD) environments by abusing remote named pipes. It specifically addresses the challenge of impersonating standard users, which existing tools often fail to do due to privilege limitations. By leveraging a rogue virtual machine (VM) with SYSTEM privileges, and robust environment handling in PoC code. This enables impersonation of both administrators and standard users, overcoming common errors like `0xc0000142`.
 
 ## Table of Contents
 - [Introduction](#introduction)
